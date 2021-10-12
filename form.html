@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>クーポン申し込み</title>
+	
+		<!-- メタ情報 -->
+		<meta name="author" content="中下咲帆">
+		<meta name="keywords" content="沖縄, 沖縄料理, クーポン">
+		<meta name="description" content="沖縄料理店のクーポン申し込みフォーム">
+		
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="form.css" type="text/css">
+	</head>
+
+
+	<body>
+		<header>
+		<!-- メニューバー -->
+			<div>
+			<h1>沖縄ゲテモノ料理図鑑</h1>
+			</div>
+			
+			<div class="nav">
+			<nav>
+				<ul>
+					<li><a href="index.html#foods">料理一覧</a></li>
+					<li><a href="form.html">クーポン</a></li>
+				</ul>
+			</nav>
+			</div>
+
+		</header>
+		
+		<hr>
+		
+		<!-- メイン画面 -->
+		<div class="main">
+		
+		<!-- トップ画像 
+		<div class="form"><img src="" alt="申し込みフォームの説明"></div>
+		-->
+		
+		<!-- 申し込みフォーム -->
+		<section>
+		<h2>クーポン申し込みフォーム</h2>
+		<p>以下のフォームを入力して、行きたいお店で使えるお得なクーポンをゲットしよう！</p>
+
+		
+		<form action="test.php" method="post">
+		<h3>お名前</h3>
+		<p><input name="お名前" type="text"></p>
+		
+		<h3>行きたいお店</h3>
+		<p>
+		<select name="行きたいお店">
+			<option value="いかすみ店">魚屋直営食堂魚まる（いかすみの店）</option>
+			<option value="てびち店">琉球酒場てびち屋本舗松山店（てびちの店）</option>
+			<option value="いらぶー店">イラブー料理カナ（いらぶーの店）</option>
+		</select>
+		</p>
+		
+		<h3>メールアドレス</h3>
+		<p><input name="メールアドレス" type="email"></p>
+		
+		<p>
+		<input name="submit" type="submit" value="送信">
+		<input name="reset" type="reset" value="リセット">
+		</p>
+			
+		</form>
+		
+		</section>
+
+		</div>
+		
+		<hr>
+	
+		<footer>
+			<!-- 文書の作成者情報 -->
+			<address>
+			作成者：中下咲帆<br>　
+			問い合わせ先：honkon@fuji.waseda.jp
+			</address>
+			<!-- コピーライト -->
+			<p><small>©︎ 2020 Sakiho Nakashita</small></p>
+			<dl>
+			<dt>作成日</dt>
+			<dd><time>2020-08-20</time></dd>
+			<dt>更新日</dt>
+			<dd><time>2020-08-20</time></dd>
+			</dl>
+		</footer>
+	</body>
+	
+</html>

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+body {
+	margin: 5% 5%;
+}
+
+h1, h2 {
+	font-family: "ヒラギノ角ゴ Pro W3","メイリオ","MS Pゴシック", sans-serif;
+	}
+
+.nav ul {
+	padding: 0.5em;
+	height: 25px;
+	list-style: none;
+	background: #ffb13d;
+	}
+
+
+li {
+	float: left;
+	width: 17%;
+}
+
+.main {
+	margin: 5% 0%;
+}
+
+footer {
+	margin: 5% 0%;
+	clear: left;
+}
+
+hr {
+	clear: left;
+}
+

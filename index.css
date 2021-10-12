@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+
+section {
+	clear: left;
+}
+	
+.main {
+	text-align: center;
+}
+
+.main-img img {
+			margin: 0 10px 10px 0;
+}
+
+
+
+
+.ゲテモノ {
+	float: left; 
+	width: 33%
+}
+
+
+footer {
+	clear: left;
+}
+
+@media only screen and (max-width: 320px) {
+		
+	.main-img img {
+			display: block;
+			margin: 0 auto;
+	}
+	 
+}
+
+
+@media only screen and (max-width: 320px) {
+		
+	 .ゲテモノ {
+			float: none; 
+			display: block;
+			margin: 0 auto;
+			width: 320px;
+	}
+}
+
+
